@@ -11,7 +11,7 @@ import android.widget.Button
 class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+
         setContentView(R.layout.activity_register)
 
 //Vamos a instanciar el boton

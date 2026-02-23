@@ -13,6 +13,18 @@
         android:layout_height="wrap_content"
         android:src="@drawable/antojitos" />
 
+    <TextView
+        android:id="@+id/txtCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoria"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FF3B3B"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
     <ListView
         android:id="@+id/litview"
         android:layout_height="match_parent"
